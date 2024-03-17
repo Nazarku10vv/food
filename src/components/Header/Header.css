@@ -1,0 +1,43 @@
+#header {
+	padding: 20px 0;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-navs {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	font-size: 19px;
+}
+
+.header-navs h4 {
+	font-family: Fira Sans;
+	font-size: 19px;
+	font-weight: 500;
+	line-height: 19px;
+	letter-spacing: 0em;
+}
+.signIn {
+	width: 103px;
+	height: 40px;
+	padding: 10px, 24px, 11px, 24px;
+	border-radius: 25px;
+	gap: 10px;
+	font-family: Fira Sans;
+	font-size: 16px;
+	background: red;
+	font-weight: 500;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #fff;
+}
+
+.header-navs h4:hover {
+	color: red;
+}
